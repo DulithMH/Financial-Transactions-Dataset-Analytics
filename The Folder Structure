@@ -1,0 +1,22 @@
+financial-fraud-analytics/
+│
+├── data/                   <-- (DO NOT upload the actual CSVs here if they are >100MB)
+│   ├── raw/                <-- Place for original CSVs (add to .gitignore)
+│   └── processed/          <-- Place for your "Master Table" or sampled data
+│
+├── notebooks/              <-- Your Jupyter/Colab Notebooks go here
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_eda_visualization.ipynb
+│   └── 03_model_training.ipynb
+│
+├── models/                 <-- Save your trained Random Forest here
+│   └── fraud_detection_rf_model.pkl
+│
+├── images/                 <-- Save your Confusion Matrix & Graphs here
+│   ├── confusion_matrix.png
+│   ├── fraud_by_hour.png
+│   └── transaction_amounts.png
+│
+├── .gitignore              <-- CRITICAL file (see below)
+├── requirements.txt        <-- List of libraries (pandas, sklearn, etc.)
+└── README.md               <-- The "Front Page" of your project
