@@ -1,0 +1,15 @@
+# Ignore Data
+data/
+*.csv
+*.json
+
+# Ignore Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints
