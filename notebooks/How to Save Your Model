@@ -1,0 +1,12 @@
+---
+
+### 3. How to Save Your Model (Optional but Professional)
+In your Colab notebook, run this code at the very end to save your "Brain" (the model) to a file. You can then upload this file to the `models/` folder.
+
+```python
+import joblib
+
+# Save the model to a file
+joblib.dump(model, 'fraud_detection_rf_model.pkl')
+
+print("Model saved successfully!")
